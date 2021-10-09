@@ -579,6 +579,9 @@ textarea {
 /* Tablet */
 
 @media screen and (max-width: 912px) {
+    :root{
+        font-size: 12px;
+    }
     /* PROPOSITIONS */
     .proposition_items.d-flex{
         flex-direction: column;
@@ -596,6 +599,13 @@ textarea {
     }
     figure.proposition_item{
         width:100%;
+    }
+    .proposition_btns {
+        justify-content: space-around;
+    }
+    .proposition_btns a{
+        width:30%;
+        align-self: center;
     }
 
     /* FEATURES */
